@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:title="Añadir centro"
+            android:textColor="@color/green"/>
+        <item android:title="HOSPITAL ALVARO CUNQUEIRO" android:id="@+id/Centro1" />
+        <item android:title="HOSPITAL UNIVERSITARIO DE A CORUÑA" android:id="@+id/Centro2" />
+        <item android:title="HOSPITAL LUCUS AUGUSTI" android:id="@+id/Centro3" />
+        <item android:title="COMPLEJO HOSPITALARIO UNIVERSITARIO DE OURENSE" android:id="@+id/Centro4"  />
+
+
+
+
+
+
+</menu>

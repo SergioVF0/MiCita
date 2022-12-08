@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.micita.RegisterActivity">
+
+
+    <EditText
+        android:id="@+id/editApellido2"
+        android:layout_width="389dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editApellido1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="34dp"
+        android:ems="10"
+        android:gravity="center"
+        android:layout_marginStart="34dp"
+        android:hint="@string/introduce_tu_segundo_apellido"
+        android:inputType="textEmailAddress"
+        android:textColor="#000"
+        android:autofillHints="Apellido2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="164dp"
+        android:gravity="center"
+        android:text="@string/registro"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="34dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/introduce_tu_nombre"
+        android:inputType="textEmailAddress"
+        android:textColor="#000"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editApellido1"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginStart="34dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/introduce_tu_primer_apellido"
+        android:inputType="textEmailAddress"
+        android:textColor="#000"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editDNI"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editApellido2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="34dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/introduzca_dni"
+        android:inputType="textEmailAddress"
+        android:textColor="#000"
+        android:autofillHints="dni" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editDNI"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="34dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/introduzca_contrase_a"
+        android:inputType="textPassword"
+        android:textColor="#000"
+        android:autofillHints="contrasena" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editPassword"
+        android:layout_marginTop="20dp"
+        android:text="@string/confirmar_registro" />
+
+
+</RelativeLayout>
